@@ -1,7 +1,7 @@
 <template>
     <section class="section">
         <div class="container">
-            About View
+            About Me View
         </div>
     </section>
 </template>

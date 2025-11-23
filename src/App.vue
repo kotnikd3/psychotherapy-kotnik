@@ -5,7 +5,7 @@
                 <RouterLink class="navbar-item" :to="{ name: 'home' }" @click="isMenuActive = false;">
                     <img src="@/assets/images/logo.png" alt="psychotherapy_kotnik_logo">
                 </RouterLink>
-                <h1 class="navbar-item is-size-4" v-text="t('webpage_title')"></h1>
+                <RouterLink class="navbar-item site-title" :to="{ name: 'home' }" v-text="t('webpage_title')" @click="isMenuActive = false;"></RouterLink>
                 <a 
                     role="button" 
                     :class="['navbar-burger', { 'is-active' : isMenuActive }]"
@@ -23,8 +23,8 @@
 
             <div id="navMenu" :class="['navbar-menu', { 'is-active' : isMenuActive }]">
                 <div class="navbar-end">
-                    <RouterLink class="navbar-item" :to="{ name: 'home' }" @click="isMenuActive = false;">Home</RouterLink>
-                    <RouterLink class="navbar-item" :to="{ name: 'about' }" v-text="t('about')" @click="isMenuActive = false;"></RouterLink>
+                    <RouterLink class="navbar-item" :to="{ name: 'about_psychotherapy' }" v-text="t('about_psychotherapy')" @click="isMenuActive = false;"></RouterLink>
+                    <RouterLink class="navbar-item" :to="{ name: 'about_me' }" v-text="t('about_me')" @click="isMenuActive = false;"></RouterLink>
                     <div class="navbar-item">
                         <div class="buttons has-addons">
                             <button @click="locale = 'sl'" :class="['button is-small', { 'is-ghost': locale === 'sl' }]">SL</button>
@@ -35,7 +35,7 @@
             </div>
         </div>
     </nav>
-    <div>
+    <div class="my-6">
         <RouterView />
     </div>
     <footer class="footer">
@@ -72,7 +72,7 @@
                     </ul>
                 </div>
                 <div class="column is-half-mobile is-3-desktop">
-                    <h2><strong v-text="t('about')"></strong></h2>
+                    <h2><strong v-text="t('webpage_title')"></strong></h2>
                     <ul>
                         <li>KvK-nummer: ?</li>
                     </ul>
@@ -91,7 +91,7 @@
             </div>
             <div class="has-text-centered pt-6">
 				<p class="has-text-grey">Psychotherapy Kotnik <font-awesome-icon icon="fa-regular fa-copyright" /> 2026</p>
-				<p style="font-size: x-small;"><i><a class="has-text-grey" href="https://www.kotnik.si" target="_blank"><span v-text="t('about')"></span> kotnik.si</a></i></p>
+				<p style="font-size: x-small;"><i><a class="has-text-grey" href="https://www.kotnik.si" target="_blank"><span v-text="t('made_by')"></span> kotnik.si</a></i></p>
 			</div>
         </div>
     </footer>
@@ -121,5 +121,8 @@ export default {
 
     .navbar-end .navbar-item.router-link-exact-active {
         background-color: $color-grey-1
+    }
+    .navbar-brand .navbar-item.site-title.router-link-exact-active {
+        background-color: $color-grey-1;
     }
 </style>
