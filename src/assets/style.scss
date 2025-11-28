@@ -9,8 +9,9 @@
 
 // Override global Sass variables from the /utilities folder
 @use "bulma/sass/utilities" with(
-    $link: $color-orange-1,
-    $warning: $color-orange-1,
+    $primary: $color-blue-main,
+    $link: $color-blue-main,
+    $warning: $color-blue-main,
 );
 
 // Load Bulma's base styles and themes (including the minireset)
@@ -20,7 +21,7 @@
 // Elements
 @use "bulma/sass/elements/title";
 @use "bulma/sass/elements/button" with(
-    $button-ghost-background: $color-grey-2,
+    $button-ghost-background: $color-blue-main,
     $button-ghost-color: white,
     $button-ghost-hover-color: white,
 );
@@ -51,7 +52,7 @@
 // Layout
 @use "bulma/sass/layout/section";
 @use "bulma/sass/layout/footer" with (
-    $footer-background-color: #F9FAFB,
+    $footer-background-color: $color-grey-1,
     $footer-padding: 32px,
 );
 @use "bulma/sass/layout/container";
@@ -77,5 +78,5 @@ html {
 
 body {
     font-family: 'Cormorant Garamond', sans-serif;
-    font-size: 18px;
+    font-size: 20px;
 }

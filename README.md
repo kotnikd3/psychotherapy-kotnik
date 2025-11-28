@@ -51,17 +51,13 @@ https://favicon.io/favicon-generator/
 	- Na kratko opiši psihoterapijo nasplošno
 	- Pri čem vamo lahko pomagam, katerimi simptomi
 	- Cena, okvir, lokacija
-
-
-- O psihodinamski psihoterapiji
+- Psihodinamska psihoterapija
 	- Napiši, da obstaja različno pristopov. In v čem se ta loči od drugih. Ana Kocjančič "Kaj je psihoterapija"
 	- Iz knjige
 	- Raziskave glede psihodinamske psihoterapije.
 	- Slika mojih knjig
 	- Vprašanja
-
-- O meni
+- Denis Kotnik
 	- Pesem.si/kotnik
-
 - Kontaktna forma
 - Logotipi v nogi

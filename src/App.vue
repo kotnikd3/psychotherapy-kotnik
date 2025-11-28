@@ -5,7 +5,7 @@
                 <RouterLink class="navbar-item" :to="{ name: 'home' }" @click="isMenuActive = false;">
                     <img src="@/assets/images/logo.png" alt="psychotherapy_kotnik_logo">
                 </RouterLink>
-                <RouterLink class="navbar-item site-title" :to="{ name: 'home' }" v-text="t('webpage_title')" @click="isMenuActive = false;"></RouterLink>
+                <RouterLink class="navbar-item" :to="{ name: 'home' }" v-text="t('webpage_title')" @click="isMenuActive = false;"></RouterLink>
                 <a 
                     role="button" 
                     :class="['navbar-burger', { 'is-active' : isMenuActive }]"
@@ -23,8 +23,8 @@
 
             <div id="navMenu" :class="['navbar-menu', { 'is-active' : isMenuActive }]">
                 <div class="navbar-end">
-                    <RouterLink class="navbar-item" :to="{ name: 'about_psychotherapy' }" v-text="t('about_psychotherapy')" @click="isMenuActive = false;"></RouterLink>
-                    <RouterLink class="navbar-item" :to="{ name: 'about_me' }" v-text="t('about_me')" @click="isMenuActive = false;"></RouterLink>
+                    <RouterLink class="navbar-item" :to="{ name: 'psychodynamic_psychotherapy' }" v-text="t('psychodynamic_psychotherapy')" @click="isMenuActive = false;"></RouterLink>
+                    <RouterLink class="navbar-item" :to="{ name: 'denis_kotnik' }" @click="isMenuActive = false;">Denis Kotnik</RouterLink>
                     <div class="navbar-item">
                         <div class="buttons has-addons">
                             <button @click="locale = 'sl'" :class="['button is-small', { 'is-ghost': locale === 'sl' }]">SL</button>
@@ -35,14 +35,25 @@
             </div>
         </div>
     </nav>
-    <div class="my-6">
-        <RouterView />
+
+    <RouterView />
+
+    <div class="container">
+        <hr>
     </div>
+    
+    <section class="section">
+        <div class="container is-max-tablet">
+            <h2 class="title is-3 has-text-centered has-text-primary" v-text="t('contact')"></h2>
+            <ContactForm></ContactForm>
+        </div>
+    </section>
+
     <footer class="footer">
         <div class="container">
-            <div class="columns is-mobile is-multiline">
-                <div class="column is-half-mobile is-offset-2-desktop is-3-desktop">
-                    <h2><strong>Contact</strong></h2>
+            <div class="columns is-mobile is-multiline is-centered">
+                <div class="column is-half-mobile is-narrow">
+                    <h2 class="title is-4"><strong>Contact</strong></h2>
                     <ul>
                         <li>
                             <a href="tel:+31611803343" class="icon-text">
@@ -60,36 +71,30 @@
                                 <span>info@psychotherapy-kotnik.com</span>
                             </a>
                         </li>
-                        <li><br></li>
+                        <li>
+                            <a href="mailto:praktijk@sandra-postma.nl" class="icon-text">
+                                <span class="icon">
+                                    <font-awesome-icon icon="fa-regular fa-envelope" />
+                                </span>
+                                <span>KvK-nummer: ?</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="column is-half-mobile is-narrow">
+                    <ul>
                         <li>
                             <a href="https://maps.app.goo.gl/3fghiDh3cu374CdS6" target="_blank" rel="noopener noreferrer" class="icon-text">
                                 <span class="icon">
                                     <font-awesome-icon icon="fa-solid fa-location-dot" />
                                 </span>
-                                <span>Psychotherapy Kotnik<br>?<br>Leeuwarden</span>
+                                <span>Leeuwarden, Utrecht, online</span>
                             </a>
                         </li>
                     </ul>
                 </div>
-                <div class="column is-half-mobile is-3-desktop">
-                    <h2><strong v-text="t('webpage_title')"></strong></h2>
-                    <ul>
-                        <li>KvK-nummer: ?</li>
-                    </ul>
-                </div>
-                <div class="column is-full-mobile is-2-desktop">
-                    <div class="columns is-mobile is-multiline">
-                        <div class="column is-half-mobile is-full-tablet">
-                            <figure>
-                                <a href="https://www.vit-therapeuten.nl/vind-therapeut/therapeut/2240/10242" target="_blank" rel="noopener noreferrer">
-                                    <img src="@/assets/images/logo.png" alt="psychotherapy_kotnik">
-                                </a>
-                            </figure>
-                        </div>
-                    </div>
-                </div>
             </div>
-            <div class="has-text-centered pt-6">
+            <div class="has-text-centered pt-5">
 				<p class="has-text-grey">Psychotherapy Kotnik <font-awesome-icon icon="fa-regular fa-copyright" /> 2026</p>
 				<p style="font-size: x-small;"><i><a class="has-text-grey" href="https://www.kotnik.si" target="_blank"><span v-text="t('made_by')"></span> kotnik.si</a></i></p>
 			</div>
@@ -99,10 +104,14 @@
 
 <script>
 import { RouterLink, RouterView } from 'vue-router'
+import ContactForm from '@/views/ContactForm.vue';
 import { useI18n } from 'vue-i18n';
 
 export default {
   	name: 'App',
+    components: {
+        ContactForm,
+    },
     setup() {
         const { t, locale } = useI18n()
 
@@ -119,10 +128,7 @@ export default {
 <style scoped lang="scss">
     @use '@/assets/variables.scss' as *;
 
-    .navbar-end .navbar-item.router-link-exact-active {
-        background-color: $color-grey-1
-    }
-    .navbar-brand .navbar-item.site-title.router-link-exact-active {
+    .navbar-item.router-link-exact-active {
         background-color: $color-grey-1;
     }
 </style>

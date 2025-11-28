@@ -1,8 +1,8 @@
 import { createRouter, createWebHistory } from 'vue-router'
 
 import HomeView from '@/views/HomeView.vue'
-import AboutMeView from '@/views/AboutMeView.vue'
-import AboutPsychotherapyView from '@/views/AboutPsychotherapyView.vue'
+import DenisKotnikView from '@/views/DenisKotnikView.vue'
+import PsychodynamicPsychotherapyView from '@/views/PsychodynamicPsychotherapyView.vue'
 
 
 const router = createRouter({
@@ -14,14 +14,14 @@ const router = createRouter({
         component: HomeView
     },
     {
-        path: '/about-me',
-        name: 'about_me',
-        component: AboutMeView
+        path: '/denis-kotnik',
+        name: 'denis_kotnik',
+        component: DenisKotnikView
     },
     {
-        path: '/about-psychotherapy',
-        name: 'about_psychotherapy',
-        component: AboutPsychotherapyView
+        path: '/psychodynamic-psychotherapy',
+        name: 'psychodynamic_psychotherapy',
+        component: PsychodynamicPsychotherapyView
     },
   ],
   scrollBehavior(to, from, savedPosition) {

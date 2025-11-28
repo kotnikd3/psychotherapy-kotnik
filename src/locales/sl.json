@@ -1,6 +1,17 @@
 {
     "webpage_title": "Psihoterapija Kotnik",
-    "about_psychotherapy": "O psihodinamski psihoterapiji",
-    "about_me": "O meni",
-    "made_by": "Ustvaril"
+    "psychodynamic_psychotherapy": "Psihodinamska psihoterapija",
+    "more_about_psychodynamic_psychotherapy": "Več o psihodinamski psihoterapiji",
+    "made_by": "Ustvaril",
+    "what_is_therapy_title": "Kaj je psihoterapija?",
+    "what_is_therapy": "Psihoterapija v osnovi pomeni pomoč oz. zdravljenje duševnih težav in motenj s pogovorom, kot je to poimenoval njen začetnik, oče psihoanalize, Sigmund Freud. Toda današnja psihoterapija se razlikuje od prvotne Freudove psihoanalize. Svoje delo je nadgradila s sodobnejšimi, na raziskavah potrjenimi teorijami, in z uporabo najrazličnejših verbalnih in neverbalnih metod in tehnik, s pomočjo katerih poskuša pomagati človeku v stiski in pri njegovi notranji rasti.<br><br>Je oblika pomoči, ki posamezniku v varnem in zaupljivem odnosu omogoča, da se notranje odpre in izrazi svojo stisko ali izziv, s katero se srečuje. Pri tem mu psihoterapevt pomaga, da v procesu skupnega raziskovanja prepoznava in postopno spreminja moteče vzorce mišljenja, doživljanja in vedenja in te spremembe prenese v svoje življenje.",
+    "help_with_title": "V varnem terapevtskem prostoru lahko skupaj razrešujeva:",
+    "help_with": "<li>depresijo, anksioznost in panične napadove</li><li>pretirano zaskrbljenost, preobremenjenost in vztrajno tesnobo</li><li>občutke krivde, sramu, strahu in notranje praznine</li><li>težave v medosebnih odnosih, partnerskih odnosih, odnosih na delovnem mestu in strah pred odnosi</li><li>izgubo pomembne osebe in proces žalovanja</li><li>stres v vsakdanjem življenju in službi, nespečnost ter kronično utrujenost</li><li>duševne motnje in motnje osebnosti</li><li>težave z jezo in agresijo</li><li>težave z izgorelostjo, zasvojenostjo in odvisniškimi vedenji</li><li>anoreksijo, bulimijo in druge motnje hranjenja</li><li>slabo samopodobo, občutke manjvrednosti in pomanjkanje smisla v življenju</li><li>obsesivno-kompulzivne motnje, motnje identitete in druge psihosomatske težave</li>",
+    "setting_title": "Terapevtski okvir, ki ga nudim:",
+    "setting": "<li><strong>Jezik:</strong> srečanja potekajo v angleščini in slovenščini</li><li><strong>Zaupnost:</strong> vaša zasebnost in čustvena varnost sta vedno na prvem mestu</li><li><strong>Pogostost:</strong> običajno enkrat ali dvakrat tedensko, glede na vaše potrebe</li><li><strong>Trajanje:</strong> 50 minut na srečanje</li><li><strong>Cena:</strong> <strong>70 €</strong> za uvodni pogovor; <strong>80–110 €</strong> na srečanje, končno ceno pa skupaj določimo na začetku terapevtskega procesa</li><li><strong>Lokacija:</strong> Leeuwarden, Utrecht ali spletno srečanje</li>",
+    "contact": "Stopite v stik z mano",
+    "name": "Ime",
+    "message": "Sporočilo",
+    "submit": "Pošlji",
+    "what_is_psychodynamic_therapy_title": "Kaj je psihodinamska psihoterapija?"
 }
