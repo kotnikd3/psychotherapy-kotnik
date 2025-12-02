@@ -56,7 +56,7 @@
                     <h2 class="title is-4"><strong>Contact</strong></h2>
                     <ul>
                         <li>
-                            <a href="tel:+31611803343" class="icon-text">
+                            <a href="tel:+31628865682" class="icon-text">
                                 <span class="icon">
                                     <font-awesome-icon icon="fa-solid fa-phone" />
                                 </span>
@@ -64,24 +64,25 @@
                             </a>
                         </li>
                         <li>
-                            <a href="mailto:praktijk@sandra-postma.nl" class="icon-text">
+                            <a href="mailto:denis.kotnik@gmail.com" class="icon-text">
                                 <span class="icon">
                                     <font-awesome-icon icon="fa-regular fa-envelope" />
                                 </span>
-                                <span>info@psychotherapy-kotnik.com</span>
+                                <span>denis.kotnik@gmail.com</span>
                             </a>
                         </li>
                         <li>
-                            <a href="mailto:praktijk@sandra-postma.nl" class="icon-text">
+                            <span class="icon-text">
                                 <span class="icon">
-                                    <font-awesome-icon icon="fa-regular fa-envelope" />
+                                    <font-awesome-icon icon="fa-solid fa-gavel" />
                                 </span>
-                                <span>KvK-nummer: ?</span>
-                            </a>
+                                <span>KVK number: ?</span>
+                            </span>
                         </li>
                     </ul>
                 </div>
                 <div class="column is-half-mobile is-narrow">
+                    <h2 class="title is-4"><strong>Practice</strong></h2>
                     <ul>
                         <li>
                             <a href="https://maps.app.goo.gl/3fghiDh3cu374CdS6" target="_blank" rel="noopener noreferrer" class="icon-text">

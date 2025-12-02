@@ -4,9 +4,9 @@ import '@/assets/style.scss'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import { faCopyright, faEnvelope, faFile } from '@fortawesome/free-regular-svg-icons'
-import { faLocationDot, faPhone } from '@fortawesome/free-solid-svg-icons'
+import { faLocationDot, faPhone, faGavel } from '@fortawesome/free-solid-svg-icons'
 
-library.add(faCopyright, faEnvelope, faLocationDot, faFile, faPhone)
+library.add(faCopyright, faEnvelope, faLocationDot, faFile, faPhone, faGavel)
 
 import { createApp } from 'vue'
 import App from './App.vue'

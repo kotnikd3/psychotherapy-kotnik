@@ -22,9 +22,11 @@
         <div class="container content">
             <div class="columns is-vcentered">
                 <div class="column is-5 has-text-centered">
-                    <!-- <img class="img-main" src="@/assets/images/Yehan_Wang_Exploding_Horizon.jpg" alt="Yehan_Wang_Exploding_Horizon" style="max-width: 400px;"> -->
-                     <figure class="image-figure"></figure>
-                    <figcaption>Yehan Wang: Exploding Horizon</figcaption>
+                    <figure>
+                        <img class="img-main" src="@/assets/images/Yehan_Wang_Exploding_Horizon.jpg" alt="Yehan_Wang_Exploding_Horizon">
+                        <!-- <figure class="image-figure"></figure> -->
+                        <figcaption>Yehan Wang: Exploding Horizon</figcaption>
+                    </figure>
                 </div>
                 <div class="column is-7">
                     <h2 class="title is-3 has-text-primary" v-text="t('help_with_title')"></h2>
@@ -55,13 +57,15 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-    .image-figure {
+    @use '@/assets/variables.scss' as *;
+
+    .img-main {
         position: relative;
-        background-image: url("@/assets/images/Yehan_Wang_Exploding_Horizon.jpg");
+        // background-image: url("@/assets/images/Yehan_Wang_Exploding_Horizon.jpg");
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
-        min-height: 500px;
+        max-height: 500px;
     }
 
     .hero-home {
@@ -106,6 +110,6 @@ export default {
     }
 
     .custom-color {
-        background-color: #F5F5F7;
+        background-color: $color-grey-1;
     }
 </style>

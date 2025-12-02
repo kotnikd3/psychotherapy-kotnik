@@ -10,9 +10,9 @@
         </div>
         <!-- Email -->
         <div class="field">
-            <label class="label">Email</label>
+            <label class="label" v-text="t('email')"></label>
             <div class="control has-icons-left">
-                <input class="input" type="email" placeholder="Email" v-model="form.email" required>
+                <input class="input" type="email" :placeholder="t('email')" v-model="form.email" required>
                 <span class="icon is-small is-left">
                     <font-awesome-icon icon="fa-regular fa-envelope" />
                 </span>
