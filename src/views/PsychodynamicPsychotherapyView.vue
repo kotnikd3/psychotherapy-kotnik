@@ -44,6 +44,10 @@
                 <h2 class="title is-3 has-text-primary" v-text="t('why_asymetric_title')"></h2>
                 <p v-text="t('why_asymetric')"></p>
             </div>
+            <div class="block content">
+                <h2 class="title is-3 has-text-primary" v-text="t('evidence_title')"></h2>
+                <p v-html="t('evidence')"></p>
+            </div>
         </div>
     </section>
 </template>

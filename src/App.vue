@@ -44,7 +44,7 @@
     
     <section class="section">
         <div class="container is-max-tablet">
-            <h2 class="title is-3 has-text-centered has-text-primary" v-text="t('contact')"></h2>
+            <h2 class="title is-3 has-text-centered has-text-primary" v-text="t('contact_me')"></h2>
             <ContactForm></ContactForm>
         </div>
     </section>
@@ -53,7 +53,7 @@
         <div class="container">
             <div class="columns is-mobile is-multiline is-centered">
                 <div class="column is-half-mobile is-narrow">
-                    <h2 class="title is-4"><strong>Contact</strong></h2>
+                    <h2 class="title is-4"><strong v-text="t('contact')"></strong></h2>
                     <ul>
                         <li>
                             <a href="tel:+31628865682" class="icon-text">
@@ -82,21 +82,21 @@
                     </ul>
                 </div>
                 <div class="column is-half-mobile is-narrow">
-                    <h2 class="title is-4"><strong>Practice</strong></h2>
+                    <h2 class="title is-4"><strong v-text="t('locations')"></strong></h2>
                     <ul>
                         <li>
                             <a href="https://maps.app.goo.gl/3fghiDh3cu374CdS6" target="_blank" rel="noopener noreferrer" class="icon-text">
                                 <span class="icon">
                                     <font-awesome-icon icon="fa-solid fa-location-dot" />
                                 </span>
-                                <span>Leeuwarden, Utrecht, online</span>
+                                <span>Leeuwarden, Utrecht, Trebnje, online</span>
                             </a>
                         </li>
                     </ul>
                 </div>
             </div>
             <div class="has-text-centered pt-5">
-				<p class="has-text-grey">Psychotherapy Kotnik <font-awesome-icon icon="fa-regular fa-copyright" /> 2026</p>
+                <p class="has-text-grey"><span v-text="t('webpage_title')"></span> <font-awesome-icon icon="fa-regular fa-copyright" /> 2026</p>
 				<p style="font-size: x-small;"><i><a class="has-text-grey" href="https://www.kotnik.si" target="_blank"><span v-text="t('made_by')"></span> kotnik.si</a></i></p>
 			</div>
         </div>

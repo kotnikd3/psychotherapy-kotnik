@@ -4,7 +4,7 @@
         <div class="hero-body">
             <div class="container">
                 <h1 class="title is-1 has-text-light" v-text="t('psychodynamic_psychotherapy')"></h1>
-                <h2 class="subtitle is-2 has-text-light">Utrecht, Leeuwarden, online</h2>
+                <h2 class="subtitle is-2 has-text-light">Utrecht, Leeuwarden, Trebnje, online</h2>
             </div>
         </div>
     </section>
@@ -70,7 +70,7 @@ export default {
 
     .hero-home {
         position: relative;
-        background-image: url("@/assets/images/home_hero.jpg");
+        background-image: url("@/assets/images/home_hero_colored.jpeg");
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
