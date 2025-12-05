@@ -76,7 +76,7 @@
                                 <span class="icon">
                                     <font-awesome-icon icon="fa-solid fa-gavel" />
                                 </span>
-                                <span>KVK number: ?</span>
+                                <span>KVK number: to be acquired</span>
                             </span>
                         </li>
                     </ul>
@@ -89,7 +89,31 @@
                                 <span class="icon">
                                     <font-awesome-icon icon="fa-solid fa-location-dot" />
                                 </span>
-                                <span>Leeuwarden, Utrecht, Trebnje, online</span>
+                                <span>Leeuwarden</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://maps.app.goo.gl/3fghiDh3cu374CdS6" target="_blank" rel="noopener noreferrer" class="icon-text">
+                                <span class="icon">
+                                    <font-awesome-icon icon="fa-solid fa-location-dot" />
+                                </span>
+                                <span>Utrecht</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://maps.app.goo.gl/3fghiDh3cu374CdS6" target="_blank" rel="noopener noreferrer" class="icon-text">
+                                <span class="icon">
+                                    <font-awesome-icon icon="fa-solid fa-location-dot" />
+                                </span>
+                                <span>Trebnje</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://maps.app.goo.gl/3fghiDh3cu374CdS6" target="_blank" rel="noopener noreferrer" class="icon-text">
+                                <span class="icon">
+                                    <font-awesome-icon icon="fa-solid fa-location-dot" />
+                                </span>
+                                <span>online</span>
                             </a>
                         </li>
                     </ul>

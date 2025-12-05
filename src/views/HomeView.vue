@@ -1,10 +1,10 @@
 <template>
     <!-- Hero -->
-    <section class="hero is-medium hero-home">
+    <section class="hero is-large hero-home">
         <div class="hero-body">
             <div class="container">
                 <h1 class="title is-1 has-text-light" v-text="t('psychodynamic_psychotherapy')"></h1>
-                <h2 class="subtitle is-2 has-text-light">Utrecht, Leeuwarden, Trebnje, online</h2>
+                <h2 class="subtitle is-2 has-text-light">Leeuwarden, Utrecht, Trebnje, online</h2>
             </div>
         </div>
     </section>
@@ -70,9 +70,10 @@ export default {
 
     .hero-home {
         position: relative;
-        background-image: url("@/assets/images/home_hero_colored.jpeg");
+        background-image: url("@/assets/images/home_hero.jpg");
         background-size: cover;
-        background-position: center;
+        background-position: 100% 30%;
+        // background-position: 10%;
         background-repeat: no-repeat;
 
         /* Optional: dark overlay for better text visibility */
@@ -83,13 +84,13 @@ export default {
             z-index: 0;
 
             /* LEFT → RIGHT fade (black 0.7 → transparent) */
-            background: linear-gradient(
-                to right,
-                rgba(0, 0, 0, 0.9) 0%,
-                rgba(0, 0, 0, 0.7) 30%,
-                rgba(0, 0, 0, 0) 60%,
-                rgba(0, 0, 0, 0) 100%
-            );
+            // background: linear-gradient(
+            //     to right,
+            //     rgba(0, 0, 0, 0.9) 0%,
+            //     rgba(0, 0, 0, 0.7) 30%,
+            //     rgba(0, 0, 0, 0) 60%,
+            //     rgba(0, 0, 0, 0) 100%
+            // );
         }
 
         .title {
