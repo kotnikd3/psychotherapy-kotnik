@@ -147,5 +147,6 @@ export default {
 
     .navbar-item.router-link-exact-active {
         background-color: $color-grey-1;
+        text-decoration: underline;
     }
 </style>
