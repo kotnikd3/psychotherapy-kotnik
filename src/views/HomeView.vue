@@ -4,7 +4,7 @@
         <div class="hero-body">
             <div class="container">
                 <h1 class="title is-1 has-text-light" v-text="t('psychodynamic_psychotherapy')"></h1>
-                <h2 class="subtitle is-2 has-text-light">Leeuwarden, Utrecht, Trebnje, online</h2>
+                <h2 class="subtitle is-2 has-text-light" v-text="t('subtitle_locations')"></h2>
             </div>
         </div>
     </section>

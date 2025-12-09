@@ -44,20 +44,3 @@ npm run lint
 ```
 
 https://favicon.io/favicon-generator/
-
-
-- Psihoterapija Kotnik
-	- Naslov "Kotnik Psihodinamska Psihoterapija Leeuwarden and Utrecht", slika
-	- Na kratko opiši psihoterapijo nasplošno
-	- Pri čem vamo lahko pomagam, katerimi simptomi
-	- Cena, okvir, lokacija
-- Psihodinamska psihoterapija
-	- Napiši, da obstaja različno pristopov. In v čem se ta loči od drugih. Ana Kocjančič "Kaj je psihoterapija"
-	- Iz knjige
-	- Raziskave glede psihodinamske psihoterapije.
-	- Slika mojih knjig
-	- Vprašanja
-- Denis Kotnik
-	- Pesem.si/kotnik
-- Kontaktna forma
-- Logotipi v nogi

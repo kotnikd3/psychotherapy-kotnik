@@ -97,14 +97,6 @@
                                 <span class="icon">
                                     <font-awesome-icon icon="fa-solid fa-location-dot" />
                                 </span>
-                                <span>Utrecht</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://maps.app.goo.gl/3fghiDh3cu374CdS6" target="_blank" rel="noopener noreferrer" class="icon-text">
-                                <span class="icon">
-                                    <font-awesome-icon icon="fa-solid fa-location-dot" />
-                                </span>
                                 <span>Trebnje</span>
                             </a>
                         </li>
