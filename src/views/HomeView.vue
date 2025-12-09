@@ -14,7 +14,7 @@
             <h2 class="title is-3 has-text-primary" v-text="t('what_is_psychodynamic_therapy_title')"></h2>
             <p v-html="t('what_is_psychodynamic_therapy')"></p>
             <div class="has-text-centered pt-6">
-                <RouterLink class="button is-primary is-outlined" :to="{ name: 'psychodynamic_psychotherapy' }" v-text="t('more_about_psychodynamic_psychotherapy')"></RouterLink>
+                <RouterLink class="button is-medium is-primary is-outlined" :to="{ name: 'psychodynamic_psychotherapy' }" v-text="t('more_about_psychodynamic_psychotherapy')"></RouterLink>
             </div>
         </div>
     </section>
