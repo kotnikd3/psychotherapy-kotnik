@@ -45,7 +45,7 @@
 </template>
   
 <script>
-    // import emailjs from '@emailjs/browser';
+    import emailjs from '@emailjs/browser';
     import { useI18n } from 'vue-i18n';
     
     export default {
@@ -77,24 +77,24 @@
                 this.isLoading = true;
                 
                 // service key, template key, form data, {public key}
-                // emailjs.send('service_s6u0w2w', 'template_pxuq39a', this.form, {publicKey: 'V62KdOFyQ_XL6WTtd'})
-                // .then(
-                //     () => {
-                //         console.log('Email sent!');
+                emailjs.send('service_therapy_kotnik', 'template_x1daw2i', this.form, {publicKey: 'V62KdOFyQ_XL6WTtd'})
+                .then(
+                    () => {
+                        console.log('Email sent!');
                         
-                //         this.isLoading = false;
-                //         this.notificationSuccess.show = true;
+                        this.isLoading = false;
+                        this.notificationSuccess.show = true;
 
-                //         // Reset form after success
-                //         this.form = { name: '', email: '', message: '' };
-                //     },
-                //     (error) => {
-                //         console.log('Error: ', error.text);
+                        // Reset form after success
+                        this.form = { name: '', email: '', message: '' };
+                    },
+                    (error) => {
+                        console.log('Error: ', error.text);
                         
-                //         this.isLoading = false;
-                //         this.notificationError.show = true;
-                //     },
-                // );
+                        this.isLoading = false;
+                        this.notificationError.show = true;
+                    },
+                );
             },
         },
     };
