@@ -3,7 +3,7 @@
         <div class="container">
             <div class="columns is-vcentered">
                 <div class="column">
-                    <h3 class="title is-3 has-text-primary" v-text="t('about_me_title')"></h3>
+                    <h3 class="title is-4 has-text-primary" v-text="t('about_me_title')"></h3>
                     <p v-html="t('about_me')"></p>
                 </div>
                 <div class="column">
@@ -15,7 +15,7 @@
 
     <section class="section">
         <div class="container">
-            <h1 class="title is-3 has-text-primary" v-text="t('links')"></h1>
+            <h1 class="title is-4 has-text-primary" v-text="t('links')"></h1>
             <div class="columns is-multiline is-centered has-text-centered is-mobile is-vcentered">
                 <div class="column is-2-desktop is-one-third-mobile">
                     <figure>

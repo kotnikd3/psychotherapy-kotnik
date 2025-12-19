@@ -1,20 +1,20 @@
 <template>
     <!-- Hero -->
-    <section class="hero is-large hero-home">
+    <section class="hero is-medium hero-home">
         <div class="hero-body">
             <div class="container">
-                <h1 class="title is-1 has-text-light" v-text="t('psychodynamic_psychotherapy')"></h1>
-                <h2 class="subtitle is-2 has-text-light" v-text="t('subtitle_locations')"></h2>
+                <h1 class="title is-2 has-text-light" v-text="t('webpage_title')"></h1>
+                <h3 class="subtitle is-3 has-text-light" v-text="t('subtitle_locations')"></h3>
             </div>
         </div>
     </section>
 
     <section class="section">
         <div class="container">
-            <h2 class="title is-3 has-text-primary" v-text="t('what_is_psychodynamic_therapy_title')"></h2>
+            <h2 class="title is-4 has-text-primary" v-text="t('what_is_psychodynamic_therapy_title')"></h2>
             <p v-html="t('what_is_psychodynamic_therapy')"></p>
             <div class="has-text-centered pt-6">
-                <RouterLink class="button is-medium is-primary is-outlined" :to="{ name: 'psychodynamic_psychotherapy' }" v-text="t('more_about_psychodynamic_psychotherapy')"></RouterLink>
+                <RouterLink class="button is-primary is-outlined" :to="{ name: 'psychodynamic_psychotherapy' }" v-text="t('more_about_psychodynamic_psychotherapy')"></RouterLink>
             </div>
         </div>
     </section>
@@ -24,12 +24,10 @@
                 <div class="column is-5 has-text-centered">
                     <figure>
                         <img class="img-main" src="@/assets/images/Yehan_Wang_Exploding_Horizon.jpg" alt="Yehan_Wang_Exploding_Horizon">
-                        <!-- <figure class="image-figure"></figure> -->
-                        <figcaption>Yehan Wang: Exploding Horizon</figcaption>
                     </figure>
                 </div>
                 <div class="column is-7">
-                    <h2 class="title is-3 has-text-primary" v-text="t('help_with_title')"></h2>
+                    <h2 class="title is-4 has-text-primary" v-text="t('help_with_title')"></h2>
                     <ul v-html="t('help_with')"></ul>
                 </div>
             </div>
@@ -37,8 +35,11 @@
     </section>
     <section class="section">
         <div class="container">
-            <h2 class="title is-3 has-text-primary" v-text="t('setting_title')"></h2>
-            <ul v-html="t('setting')"></ul>  
+            <h2 class="title is-4 has-text-primary" v-text="t('setting_title')"></h2>
+            <ul v-html="t('setting')"></ul>
+            <div class="has-text-centered pt-6">
+                <RouterLink class="button is-primary is-outlined" :to="{ name: 'denis_kotnik' }" v-text="t('more_about_me')"></RouterLink>
+            </div>
         </div>
     </section>
 </template>
@@ -72,7 +73,7 @@ export default {
         position: relative;
         background-image: url("@/assets/images/home_hero.jpg");
         background-size: cover;
-        background-position: 100% 30%;
+        background-position: 100% 25%;
         // background-position: 10%;
         background-repeat: no-repeat;
 
@@ -93,21 +94,21 @@ export default {
             // );
         }
 
-        .title {
-            font-size: 2.2rem; /* mobile-safe size */
-            font-weight: 700;
-        }
+        // .title {
+        //     // font-size: 2.2rem; /* mobile-safe size */
+        //     font-weight: 700;
+        // }
 
-        .subtitle {
-            font-size: 1.4rem;
-            font-weight: 300;
-        }
+        // .subtitle {
+        //     font-size: 1.4rem;
+        //     font-weight: 300;
+        // }
 
-        /* Larger text on tablets/desktops */
-        @media (min-width: 768px) {
-            .title { font-size: 3rem; }
-            .subtitle { font-size: 2rem; }
-        }
+        // /* Larger text on tablets/desktops */
+        // @media (min-width: 768px) {
+        //     // .title { font-size: 3rem; }
+        //     .subtitle { font-size: 2rem; }
+        // }
     }
 
     .custom-color {

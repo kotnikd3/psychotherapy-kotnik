@@ -2,17 +2,19 @@ import { createI18n } from 'vue-i18n';
 import en from '@/locales/en.json';
 import sl from '@/locales/sl.json';
 
-let locale = 'sl' // default
-if (window.location.hostname.endsWith('.com')) {
-    locale = 'en'
+
+let defaultLocale = 'en' // default
+if (window.location.hostname.endsWith('.si')) {
+    defaultLocale = 'sl'
 }
 
+
 const i18n = createI18n({
-	locale: locale,
-  	fallbackLocale: 'sl',
+	locale: defaultLocale,
+  	fallbackLocale: 'en',
   	messages: {
 		en,
-		sl,
+		sl
   	},
     allowComposition: true,
     legacy: false,

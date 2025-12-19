@@ -44,7 +44,7 @@
     
     <section class="section">
         <div class="container is-max-tablet">
-            <h2 class="title is-3 has-text-centered has-text-primary" v-text="t('contact_me')"></h2>
+            <h2 class="title is-4 has-text-centered has-text-primary" v-text="t('contact_me')"></h2>
             <ContactForm></ContactForm>
         </div>
     </section>
@@ -53,7 +53,7 @@
         <div class="container">
             <div class="columns is-mobile is-multiline is-centered">
                 <div class="column is-half-mobile is-narrow">
-                    <h2 class="title is-4"><strong v-text="t('contact')"></strong></h2>
+                    <h2 class="title is-5"><strong v-text="t('contact')"></strong></h2>
                     <ul>
                         <li>
                             <a href="tel:+31628865682" class="icon-text">
@@ -64,49 +64,49 @@
                             </a>
                         </li>
                         <li>
-                            <a href="mailto:denis.kotnik@gmail.com" class="icon-text">
+                            <a href="mailto:info@psychotherapy-kotnik.com" class="icon-text">
                                 <span class="icon">
                                     <font-awesome-icon icon="fa-regular fa-envelope" />
                                 </span>
-                                <span>denis.kotnik@gmail.com</span>
+                                <span>info@psychotherapy-kotnik.com</span>
                             </a>
                         </li>
-                        <li>
+                        <!-- <li>
                             <span class="icon-text">
                                 <span class="icon">
                                     <font-awesome-icon icon="fa-solid fa-gavel" />
                                 </span>
                                 <span>KVK number: to be acquired</span>
                             </span>
-                        </li>
+                        </li> -->
                     </ul>
                 </div>
                 <div class="column is-half-mobile is-narrow">
-                    <h2 class="title is-4"><strong v-text="t('locations')"></strong></h2>
+                    <h2 class="title is-5"><strong v-text="t('locations')"></strong></h2>
                     <ul>
                         <li>
-                            <a href="https://maps.app.goo.gl/3fghiDh3cu374CdS6" target="_blank" rel="noopener noreferrer" class="icon-text">
+                            <div class="icon-text">
                                 <span class="icon">
                                     <font-awesome-icon icon="fa-solid fa-location-dot" />
                                 </span>
-                                <span>Leeuwarden</span>
-                            </a>
+                                <span>Leeuwarden (The Netherlands)</span>
+                            </div>
                         </li>
                         <li>
-                            <a href="https://maps.app.goo.gl/3fghiDh3cu374CdS6" target="_blank" rel="noopener noreferrer" class="icon-text">
+                            <div class="icon-text">
                                 <span class="icon">
                                     <font-awesome-icon icon="fa-solid fa-location-dot" />
                                 </span>
-                                <span>Trebnje</span>
-                            </a>
+                                <span>Trebnje (Slovenia)</span>
+                            </div>
                         </li>
                         <li>
-                            <a href="https://maps.app.goo.gl/3fghiDh3cu374CdS6" target="_blank" rel="noopener noreferrer" class="icon-text">
+                            <div class="icon-text">
                                 <span class="icon">
                                     <font-awesome-icon icon="fa-solid fa-location-dot" />
                                 </span>
                                 <span>online</span>
-                            </a>
+                            </div>
                         </li>
                     </ul>
                 </div>
