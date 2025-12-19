@@ -3,8 +3,8 @@
     <section class="hero is-medium hero-home">
         <div class="hero-body">
             <div class="container">
-                <h1 class="title is-2 has-text-light" v-text="t('webpage_title')"></h1>
-                <h3 class="subtitle is-3 has-text-light" v-text="t('subtitle_locations')"></h3>
+                <h1 class="title is-size-4-mobile is-size-2-tablet has-text-light" v-text="t('webpage_title')"></h1>
+                <h3 class="subtitle is-size-5-mobile is-size-3-tablet has-text-light" v-text="t('subtitle_locations')"></h3>
             </div>
         </div>
     </section>
