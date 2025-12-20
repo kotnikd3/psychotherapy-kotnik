@@ -3,7 +3,7 @@
     <section class="hero is-medium hero-home">
         <div class="hero-body">
             <div class="container">
-                <h1 class="title is-size-4-mobile is-size-2-tablet has-text-light" v-text="t('webpage_title')"></h1>
+                <h2 class="title is-size-4-mobile is-size-2-tablet has-text-light" v-text="t('webpage_title')"></h2>
                 <h3 class="subtitle is-size-5-mobile is-size-3-tablet has-text-light" v-text="t('subtitle_locations')"></h3>
             </div>
         </div>
@@ -23,7 +23,7 @@
             <div class="columns is-vcentered">
                 <div class="column is-5 has-text-centered">
                     <figure>
-                        <img class="img-main" src="@/assets/images/Yehan_Wang_Exploding_Horizon.jpg" alt="Yehan_Wang_Exploding_Horizon">
+                        <img class="img-main" src="@/assets/images/Yehan_Wang_Exploding_Horizon.webp" alt="Yehan_Wang_Exploding_Horizon">
                     </figure>
                 </div>
                 <div class="column is-7">
@@ -71,44 +71,10 @@ export default {
 
     .hero-home {
         position: relative;
-        background-image: url("@/assets/images/home_hero.jpg");
+        background-image: url("@/assets/images/home_hero.webp");
         background-size: cover;
-        background-position: 100% 25%;
-        // background-position: 10%;
+        background-position: 100% 15%;
         background-repeat: no-repeat;
-
-        /* Optional: dark overlay for better text visibility */
-        &::before {
-            content: "";
-            position: absolute;
-            inset: 0;
-            z-index: 0;
-
-            /* LEFT → RIGHT fade (black 0.7 → transparent) */
-            // background: linear-gradient(
-            //     to right,
-            //     rgba(0, 0, 0, 0.9) 0%,
-            //     rgba(0, 0, 0, 0.7) 30%,
-            //     rgba(0, 0, 0, 0) 60%,
-            //     rgba(0, 0, 0, 0) 100%
-            // );
-        }
-
-        // .title {
-        //     // font-size: 2.2rem; /* mobile-safe size */
-        //     font-weight: 700;
-        // }
-
-        // .subtitle {
-        //     font-size: 1.4rem;
-        //     font-weight: 300;
-        // }
-
-        // /* Larger text on tablets/desktops */
-        // @media (min-width: 768px) {
-        //     // .title { font-size: 3rem; }
-        //     .subtitle { font-size: 2rem; }
-        // }
     }
 
     .custom-color {
