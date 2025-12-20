@@ -5,7 +5,7 @@
                 <RouterLink class="navbar-item" :to="{ name: 'home' }" @click="isMenuActive = false;">
                     <img src="@/assets/images/logo.webp" alt="psychotherapy_kotnik_logo">
                 </RouterLink>
-                <RouterLink class="navbar-item" :to="{ name: 'home' }" v-text="t('webpage_title')" @click="isMenuActive = false;"></RouterLink>
+                <RouterLink class="navbar-item" :to="{ name: 'home' }" @click="isMenuActive = false;">{{ t('webpage_title') }}</RouterLink>
                 <a 
                     role="button" 
                     :class="['navbar-burger', { 'is-active' : isMenuActive }]"
@@ -23,7 +23,7 @@
 
             <div id="navMenu" :class="['navbar-menu', { 'is-active' : isMenuActive }]">
                 <div class="navbar-end">
-                    <RouterLink class="navbar-item" :to="{ name: 'psychodynamic_psychotherapy' }" v-text="t('psychodynamic_psychotherapy')" @click="isMenuActive = false;"></RouterLink>
+                    <RouterLink class="navbar-item" :to="{ name: 'psychodynamic_psychotherapy' }" @click="isMenuActive = false;">{{ t('psychodynamic_psychotherapy') }}</RouterLink>
                     <RouterLink class="navbar-item" :to="{ name: 'denis_kotnik' }" @click="isMenuActive = false;">Denis Kotnik</RouterLink>
                     <div class="navbar-item">
                         <div class="buttons has-addons">
@@ -120,7 +120,6 @@
 </template>
 
 <script>
-import { RouterLink, RouterView } from 'vue-router'
 import ContactForm from '@/views/ContactForm.vue';
 import { useI18n } from 'vue-i18n';
 

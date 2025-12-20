@@ -17,7 +17,7 @@
             <h2 class="title is-4 has-text-primary" v-text="t('what_is_psychodynamic_therapy_title')"></h2>
             <p v-html="t('what_is_psychodynamic_therapy')"></p>
             <div class="has-text-centered pt-6">
-                <RouterLink class="button is-primary is-outlined" :to="{ name: 'psychodynamic_psychotherapy' }" v-text="t('more_about_psychodynamic_psychotherapy')"></RouterLink>
+                <RouterLink class="button is-primary is-outlined" :to="{ name: 'psychodynamic_psychotherapy' }">{{ t('more_about_psychodynamic_psychotherapy') }}</RouterLink>
             </div>
         </div>
     </section>
@@ -41,7 +41,7 @@
             <h2 class="title is-4 has-text-primary" v-text="t('setting_title')"></h2>
             <ul v-html="t('setting')"></ul>
             <div class="has-text-centered pt-6">
-                <RouterLink class="button is-primary is-outlined" :to="{ name: 'denis_kotnik' }" v-text="t('more_about_me')"></RouterLink>
+                <RouterLink class="button is-primary is-outlined" :to="{ name: 'denis_kotnik' }">{{ t('more_about_me') }}</RouterLink>
             </div>
         </div>
     </section>
