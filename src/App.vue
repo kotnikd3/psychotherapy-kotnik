@@ -3,7 +3,7 @@
         <div class="container">
             <div class="navbar-brand">
                 <RouterLink class="navbar-item" :to="{ name: 'home' }" @click="isMenuActive = false;">
-                    <img src="@/assets/images/logo.png" alt="psychotherapy_kotnik_logo">
+                    <img src="@/assets/images/logo.webp" alt="psychotherapy_kotnik_logo">
                 </RouterLink>
                 <RouterLink class="navbar-item" :to="{ name: 'home' }" v-text="t('webpage_title')" @click="isMenuActive = false;"></RouterLink>
                 <a 

@@ -1,6 +1,9 @@
 <template>
     <!-- Hero -->
-    <section class="hero is-medium hero-home">
+    <section class="hero is-medium">
+        <figure>
+            <img  src="@/assets/images/home_hero.webp"  alt="Home_image" class="hero-bg-img"/>
+        </figure>
         <div class="hero-body">
             <div class="container">
                 <h2 class="title is-size-4-mobile is-size-2-tablet has-text-light" v-text="t('webpage_title')"></h2>
@@ -23,7 +26,7 @@
             <div class="columns is-vcentered">
                 <div class="column is-5 has-text-centered">
                     <figure>
-                        <img class="img-main" src="@/assets/images/Yehan_Wang_Exploding_Horizon.webp" alt="Yehan_Wang_Exploding_Horizon">
+                        <img class="img-working-on" src="@/assets/images/Yehan_Wang_Exploding_Horizon.webp" alt="Yehan_Wang_Exploding_Horizon">
                     </figure>
                 </div>
                 <div class="column is-7">
@@ -60,7 +63,7 @@ export default {
 <style lang="scss" scoped>
     @use '@/assets/variables.scss' as *;
 
-    .img-main {
+    .img-working-on {
         position: relative;
         background-size: cover;
         background-position: center;
@@ -68,13 +71,21 @@ export default {
         max-height: 500px;
     }
 
-    .hero-home {
+    .hero {
         position: relative;
-        background-image: url("@/assets/images/home_hero.webp");
-        background-size: cover;
-        background-position: 100% 23%;
-        background-repeat: no-repeat;
+        overflow: hidden;
     }
+
+    .hero-bg-img {
+        position: absolute;
+        top: 0;       /* necessary for proper absolute positioning */
+        left: 0;      /* necessary */
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: 100% 23%;
+    }
+
 
     .custom-color {
         background-color: $color-grey-1;

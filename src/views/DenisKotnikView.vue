@@ -7,7 +7,7 @@
                     <p v-html="t('about_me')"></p>
                 </div>
                 <div class="column">
-                    <img class="img-main" src="@/assets/images/denis_kotnik.jpg" alt="Denis_Kotnik">
+                    <img class="img-denis-kotnik" src="@/assets/images/denis_kotnik.jpg" alt="Denis_Kotnik">
                 </div>
             </div>
         </div>

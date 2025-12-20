@@ -15,14 +15,14 @@
                         <h2 class="title is-4 has-text-primary" v-text="t('how_long_title')"></h2>
                         <p v-text="t('how_long')"></p>
                     </div>
+                    <div class="block mt-6">
+                        <h2 class="title is-4 has-text-primary" v-text="t('why_so_often_title')"></h2>
+                        <p v-text="t('why_so_often')"></p>
+                    </div>
                 </div>
                 <div class="column">
-                    <img class="img-main" src="@/assets/images/books.png" alt="Books">
+                    <img class="img-books" src="@/assets/images/books.webp" alt="Books">
                 </div>
-            </div>
-            <div class="block mt-6">
-                <h2 class="title is-4 has-text-primary" v-text="t('why_so_often_title')"></h2>
-                <p v-text="t('why_so_often')"></p>
             </div>
             <div class="block mt-6">
                 <h2 class="title is-4 has-text-primary" v-text="t('will_my_therapist_talk_title')"></h2>
