@@ -5,13 +5,14 @@
 ///////////////////////////////////////
 
 // Load everything
-@use 'bulma/css/bulma.css';
+// @use 'bulma/css/bulma.css';
 
 // Override global Sass variables from the /utilities folder
 @use "bulma/sass/utilities" with(
     $primary: $color-blue-main,
     $link: $color-blue-main,
     $warning: $color-blue-main,
+    $family-primary: "'Lato', system-ui, -apple-system, BlinkMacSystemFont, sans-serif"
 );
 
 // Load Bulma's base styles and themes (including the minireset)
@@ -60,17 +61,6 @@
 
 
 ///////////////////////////////////////
-// Google fonts
-///////////////////////////////////////
-@font-face {
-    // font-family: 'Varela Round';
-    font-family: 'Lato';
-    src: url('@/fonts/Lato-Regular.ttf') format('woff2');
-    font-weight: normal;
-    font-style: normal;
-}
-
-///////////////////////////////////////
 // Custom CSS
 ///////////////////////////////////////
 html {
@@ -78,6 +68,6 @@ html {
 }
 
 body {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Lato', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
     font-size: 19px;
 }

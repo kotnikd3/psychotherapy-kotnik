@@ -62,7 +62,6 @@ export default {
 
     .img-main {
         position: relative;
-        // background-image: url("@/assets/images/Yehan_Wang_Exploding_Horizon.jpg");
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -73,7 +72,7 @@ export default {
         position: relative;
         background-image: url("@/assets/images/home_hero.webp");
         background-size: cover;
-        background-position: 100% 15%;
+        background-position: 100% 23%;
         background-repeat: no-repeat;
     }
 
