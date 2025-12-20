@@ -6,8 +6,8 @@
                     <h3 class="title is-4 has-text-primary" v-text="t('about_me_title')"></h3>
                     <p v-html="t('about_me')"></p>
                 </div>
-                <div class="column">
-                    <img class="img-denis-kotnik" src="@/assets/images/denis_kotnik.jpg" alt="Denis_Kotnik">
+                <div class="column has-text-centered">
+                    <img class="img-denis-kotnik" src="@/assets/images/denis_kotnik_5.webp" alt="Denis_Kotnik" style="max-width: 80%;">
                 </div>
             </div>
         </div>
