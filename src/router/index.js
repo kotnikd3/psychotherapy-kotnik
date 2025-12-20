@@ -1,9 +1,5 @@
 import { createRouter, createWebHistory } from 'vue-router'
 
-import HomeView from '@/views/HomeView.vue'
-import DenisKotnikView from '@/views/DenisKotnikView.vue'
-import PsychodynamicPsychotherapyView from '@/views/PsychodynamicPsychotherapyView.vue'
-
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -11,18 +7,18 @@ const router = createRouter({
     {
         path: '/',
         name: 'home',
-        component: HomeView
+        component: () => import('@/views/HomeView.vue')
     },
     {
         path: '/denis-kotnik',
         name: 'denis_kotnik',
-        component: DenisKotnikView
+        component: () => import ('@/views/DenisKotnikView.vue')
     },
     {
         path: '/psychodynamic-psychotherapy',
         name: 'psychodynamic_psychotherapy',
-        component: PsychodynamicPsychotherapyView
-    },
+        component: () => import('@/views/PsychodynamicPsychotherapyView.vue')
+    }
   ],
   scrollBehavior(to, from, savedPosition) {
     // Scroll to top on every navigation
