@@ -7,7 +7,7 @@
                     <p v-html="t('about_me')"></p>
                 </div>
                 <div class="column has-text-centered">
-                    <img class="img-denis-kotnik" src="@/assets/images/denis_kotnik_5.webp" alt="Denis_Kotnik" style="max-width: 80%;">
+                    <img class="img-denis-kotnik" src="@/assets/images/denis_kotnik.webp" alt="Denis_Kotnik" style="max-width: 80%;">
                 </div>
             </div>
         </div>

@@ -25,8 +25,8 @@
         <div class="container content">
             <div class="columns is-vcentered">
                 <div class="column is-5 has-text-centered">
-                    <figure>
-                        <img class="img-working-on" src="@/assets/images/Yehan_Wang_Exploding_Horizon.webp" alt="Yehan_Wang_Exploding_Horizon">
+                    <figure class="image">
+                        <img class="img-working-on" src="@/assets/images/working_on.webp" alt="Working_on_psychotherapy">
                     </figure>
                 </div>
                 <div class="column is-7">
@@ -63,14 +63,6 @@ export default {
 <style lang="scss" scoped>
     @use '@/assets/variables.scss' as *;
 
-    .img-working-on {
-        position: relative;
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        max-height: 500px;
-    }
-
     .hero {
         position: relative;
         overflow: hidden;
@@ -83,7 +75,7 @@ export default {
         width: 100%;
         height: 100%;
         object-fit: cover;
-        object-position: 100% 23%;
+        object-position: 100% 16%;
     }
 
 
