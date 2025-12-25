@@ -36,7 +36,7 @@
     "@fortawesome/vue-fontawesome": "^3.1.2",
     "bulma": "^1.0.4",
     "vue": "^3.5.26",
-    "vue-i18n": "^11.2.2",
+    "vue-i18n": "^11.2.7",
     "vue-router": "^4.6.4"
   },
   "devDependencies": {
@@ -47,7 +47,7 @@
     "eslint-plugin-vue": "~10.6.2",
     "globals": "^16.5.0",
     "prettier": "3.7.4",
-    "sass": "^1.97.0",
+    "sass": "^1.97.1",
     "sass-loader": "^16.0.6",
     "vite": "^7.3.0",
     "vite-plugin-vue-devtools": "^8.0.5",
