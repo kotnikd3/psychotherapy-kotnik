@@ -12,6 +12,13 @@
         </div>
     </section>
 
+    <section class="section custom-color">
+        <div class="container">
+            <h2 class="title is-4 has-text-primary" v-text="t('welcomeTitle')"></h2>
+            <p v-text="t('welcomeText')"></p>
+        </div>
+    </section>
+
     <section class="section">
         <div class="container">
             <h2 class="title is-4 has-text-primary" v-text="t('what_is_psychodynamic_therapy_title')"></h2>
