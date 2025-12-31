@@ -85,20 +85,12 @@
                     <h2 class="title is-5 has-text-primary"><strong v-text="t('locations')"></strong></h2>
                     <ul>
                         <li>
-                            <div class="icon-text">
+                            <a href="https://maps.app.goo.gl/2tMEEyX3f1RU8qbY7" target="_blank" rel="noopener noreferrer" class="icon-text">
                                 <span class="icon">
                                     <font-awesome-icon icon="fa-solid fa-location-dot" />
                                 </span>
-                                <span>Leeuwarden (The Netherlands)</span>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="icon-text">
-                                <span class="icon">
-                                    <font-awesome-icon icon="fa-solid fa-location-dot" />
-                                </span>
-                                <span>Trebnje (Slovenia)</span>
-                            </div>
+                                <span>Polluxweg 20<br>8938 AZ Leeuwarden</span>
+                            </a>
                         </li>
                         <li>
                             <div class="icon-text">
