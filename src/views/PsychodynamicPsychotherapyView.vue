@@ -1,7 +1,11 @@
 <template>
     <section class="section mt-5">
         <div class="container">
-            <div class="block content">
+            <div class="block">
+                <h2 class="title is-4 has-text-primary" v-text="t('what_is_psychodynamic_therapy_title')"></h2>
+                <p v-html="t('what_is_psychodynamic_therapy')"></p>
+            </div>
+            <div class="block mt-6 content">
                 <h2 class="title is-4 has-text-primary" v-text="t('in_therapy_you_will_do_title')"></h2>
                 <p v-html="t('in_therapy_you_will_do')"></p>
             </div>

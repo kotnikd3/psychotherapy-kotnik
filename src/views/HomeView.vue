@@ -15,19 +15,19 @@
     <section class="section custom-color">
         <div class="container">
             <h2 class="title is-4 has-text-primary" v-text="t('welcomeTitle')"></h2>
-            <p v-text="t('welcomeText')"></p>
-        </div>
-    </section>
-
-    <section class="section">
-        <div class="container">
-            <h2 class="title is-4 has-text-primary" v-text="t('what_is_psychodynamic_therapy_title')"></h2>
-            <p v-html="t('what_is_psychodynamic_therapy')"></p>
+            <p v-html="t('welcomeText')"></p>
             <div class="has-text-centered pt-6">
                 <RouterLink class="button is-primary is-outlined" :to="{ name: 'psychodynamic_psychotherapy' }">{{ t('more_about_psychodynamic_psychotherapy') }}</RouterLink>
             </div>
         </div>
     </section>
+
+    <section class="section">
+        <div class="container">
+            <p class="is-italic has-text-primary is-size-4 has-text-centered" v-html="t('quote')"></p>
+        </div>
+    </section>
+
     <section class="section custom-color">
         <div class="container">
             <div class="columns is-vcentered">

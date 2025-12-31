@@ -53,7 +53,7 @@
         <div class="container">
             <div class="columns is-mobile is-multiline is-centered">
                 <div class="column is-half-mobile is-narrow">
-                    <h2 class="title is-5"><strong v-text="t('contact')"></strong></h2>
+                    <h2 class="title is-5 has-text-primary"><strong v-text="t('contact')"></strong></h2>
                     <ul>
                         <li>
                             <a href="tel:+31628865682" class="icon-text">
@@ -82,7 +82,7 @@
                     </ul>
                 </div>
                 <div class="column is-half-mobile is-narrow">
-                    <h2 class="title is-5"><strong v-text="t('locations')"></strong></h2>
+                    <h2 class="title is-5 has-text-primary"><strong v-text="t('locations')"></strong></h2>
                     <ul>
                         <li>
                             <div class="icon-text">
@@ -111,9 +111,9 @@
                     </ul>
                 </div>
             </div>
-            <div class="has-text-centered pt-5">
-                <p class="has-text-grey"><span v-text="t('webpage_title')"></span> <font-awesome-icon icon="fa-regular fa-copyright" /> 2026</p>
-				<p style="font-size: x-small;"><i><a class="has-text-grey" href="https://www.kotnik.si" target="_blank"><span v-text="t('made_by')"></span> kotnik.si</a></i></p>
+            <div class="has-text-centered pt-5 has-text-primary">
+                <p><span v-text="t('webpage_title')"></span> <font-awesome-icon icon="fa-regular fa-copyright" /> 2026</p>
+				<p style="font-size: x-small;"><i><a href="https://www.kotnik.si" target="_blank"><span v-text="t('made_by')"></span> kotnik.si</a></i></p>
 			</div>
         </div>
     </footer>
