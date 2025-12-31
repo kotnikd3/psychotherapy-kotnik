@@ -2,7 +2,7 @@
     <!-- Hero -->
     <section class="hero is-medium">
         <figure>
-            <img  src="@/assets/images/home_hero.webp"  alt="Home_image" class="hero-bg-img"/>
+            <img  src="@/assets/images/home_hero_top.webp"  alt="Home_image" class="hero-bg-img"/>
         </figure>
         <div class="hero-body">
             <div class="container">
@@ -29,14 +29,14 @@
         </div>
     </section>
     <section class="section custom-color">
-        <div class="container content">
+        <div class="container">
             <div class="columns is-vcentered">
                 <div class="column is-5 has-text-centered">
                     <figure class="image">
-                        <img class="img-working-on" src="@/assets/images/working_on.webp" alt="Working_on_psychotherapy">
+                        <img class="img-working-on" src="@/assets/images/home_hero_bottom_left.webp" alt="Working_on_psychotherapy_image">
                     </figure>
                 </div>
-                <div class="column is-7">
+                <div class="column is-7 content">
                     <h2 class="title is-4 has-text-primary" v-text="t('help_with_title')"></h2>
                     <ul v-html="t('help_with')"></ul>
                 </div>
@@ -82,7 +82,7 @@ export default {
         width: 100%;
         height: 100%;
         object-fit: cover;
-        object-position: 100% 16%;
+        object-position: 100% 80%;
     }
 
 
