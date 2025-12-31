@@ -97,6 +97,14 @@
                                 <span class="icon">
                                     <font-awesome-icon icon="fa-solid fa-location-dot" />
                                 </span>
+                                <span>Trebnje</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="icon-text">
+                                <span class="icon">
+                                    <font-awesome-icon icon="fa-solid fa-location-dot" />
+                                </span>
                                 <span>online</span>
                             </div>
                         </li>
