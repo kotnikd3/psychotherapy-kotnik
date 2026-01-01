@@ -1,6 +1,6 @@
 {
   "name": "psychotherapy-kotnik",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Psychotherapy Kotnik website",
   "author": "Denis Kotnik",
   "license": "copyright",
@@ -19,7 +19,8 @@
     "psychotherapy",
     "denis",
     "kotnik",
-    "denis kotnik"
+    "leeuwarden",
+    "trebnje"
   ],
   "scripts": {
     "dev": "vite",
