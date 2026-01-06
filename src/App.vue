@@ -89,7 +89,7 @@
                                 <span class="icon">
                                     <font-awesome-icon icon="fa-solid fa-location-dot" />
                                 </span>
-                                <span>Polluxweg 20<br>8938 AZ Leeuwarden</span>
+                                <span>Polluxweg 20<br>8938 AZ Leeuwarden<br>The Netherlands</span>
                             </a>
                         </li>
                         <li>
@@ -97,7 +97,7 @@
                                 <span class="icon">
                                     <font-awesome-icon icon="fa-solid fa-location-dot" />
                                 </span>
-                                <span>Trebnje</span>
+                                <span>online</span>
                             </div>
                         </li>
                         <li>
@@ -105,7 +105,7 @@
                                 <span class="icon">
                                     <font-awesome-icon icon="fa-solid fa-location-dot" />
                                 </span>
-                                <span>online</span>
+                                <span>8210 Trebnje<br>Slovenia</span>
                             </div>
                         </li>
                     </ul>

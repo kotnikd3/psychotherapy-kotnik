@@ -47,8 +47,23 @@
     </section>
     <section class="section">
         <div class="container">
-            <h2 class="title is-4 has-text-primary" v-text="t('setting_title')"></h2>
-            <ul v-html="t('setting')"></ul>
+            <h2 class="title is-4 has-text-primary pb-5" v-text="t('setting_title')"></h2>
+
+            <div class="columns has-text-centered is-mobile is-multiline">
+                <div class="column is-half-mobile">
+                    <p class="title has-text-primary"><font-awesome-icon icon="fa-solid fa-euro-sign" /></p>
+                    <p v-html="t('setting_fee')"></p>
+                </div>
+                <div class="column is-half-mobile">
+                    <p class="title has-text-primary"><font-awesome-icon icon="fa-regular fa-clock" /></p>
+                    <p v-html="t('setting_time')"></p>
+                </div>
+                <div class="column is-half-mobile">
+                    <p class="title has-text-primary"><font-awesome-icon icon="fa-solid fa-language" /></p>
+                    <p v-html="t('setting_language')"></p>
+                </div>
+            </div>
+            
             <div class="has-text-centered pt-6">
                 <RouterLink class="button is-primary is-outlined" :to="{ name: 'denis_kotnik' }">{{ t('more_about_me') }}</RouterLink>
             </div>
