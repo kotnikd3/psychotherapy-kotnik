@@ -1,9 +1,9 @@
 <template>
-    <section class="section mt-5">
+    <section class="section mt-4">
         <div class="container">
             <div class="columns is-vcentered">
                 <div class="column">
-                    <h3 class="title is-4 has-text-primary" v-text="t('about_me_title')"></h3>
+                    <h5 class="title is-5 has-text-primary" v-text="t('about_me_title')"></h5>
                     <p v-html="t('about_me')"></p>
                 </div>
                 <div class="column has-text-centered">
@@ -15,7 +15,7 @@
 
     <section class="section">
         <div class="container">
-            <h1 class="title is-4 has-text-primary" v-text="t('links')"></h1>
+            <h5 class="title is-5 has-text-primary" v-text="t('links')"></h5>
             <div class="columns is-multiline is-centered has-text-centered is-mobile is-vcentered">
                 <div class="column is-2-desktop is-one-third-mobile">
                     <figure>

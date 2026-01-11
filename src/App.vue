@@ -44,7 +44,7 @@
     
     <section class="section">
         <div class="container is-max-tablet">
-            <h2 class="title is-4 has-text-centered has-text-primary" v-text="t('contact_me')"></h2>
+            <h5 class="title is-5 has-text-centered has-text-primary" v-text="t('contact_me')"></h5>
             <ContactForm></ContactForm>
         </div>
     </section>
@@ -53,7 +53,7 @@
         <div class="container">
             <div class="columns is-mobile is-multiline is-centered">
                 <div class="column is-half-mobile is-narrow">
-                    <h2 class="title is-5 has-text-primary"><strong v-text="t('contact')"></strong></h2>
+                    <h6 class="title is-6 has-text-primary"><strong v-text="t('contact')"></strong></h6>
                     <ul>
                         <li>
                             <a href="tel:+31628865682" class="icon-text">
@@ -82,7 +82,7 @@
                     </ul>
                 </div>
                 <div class="column is-half-mobile is-narrow">
-                    <h2 class="title is-5 has-text-primary"><strong v-text="t('locations')"></strong></h2>
+                    <h6 class="title is-6 has-text-primary"><strong v-text="t('locations')"></strong></h6>
                     <ul>
                         <li>
                             <a href="https://maps.app.goo.gl/2tMEEyX3f1RU8qbY7" target="_blank" rel="noopener noreferrer" class="icon-text">
@@ -145,7 +145,7 @@ export default {
     @use '@/assets/variables.scss' as *;
 
     .navbar-item.router-link-exact-active {
-        background-color: $color-grey-1;
+        background-color: $color-primary-select;
         text-decoration: underline;
     }
 </style>

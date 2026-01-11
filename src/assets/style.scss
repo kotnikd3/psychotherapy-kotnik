@@ -9,8 +9,9 @@
 
 // Override global Sass variables from the /utilities folder
 @use "bulma/sass/utilities" with(
-    $primary: $color-blue-main,
-    $link: $color-blue-main,
+    $primary: $color-primary,
+    $link: $color-primary,
+    $warning: $color-secondary,
     $family-primary: "'Lato', system-ui, -apple-system, BlinkMacSystemFont, sans-serif"
 );
 
@@ -21,7 +22,7 @@
 // Elements
 @use "bulma/sass/elements/title";
 @use "bulma/sass/elements/button" with(
-    $button-ghost-background: $color-blue-main,
+    $button-ghost-background: $color-primary,
     $button-ghost-color: white,
     $button-ghost-hover-color: white,
 );
@@ -52,7 +53,7 @@
 // Layout
 @use "bulma/sass/layout/section";
 @use "bulma/sass/layout/footer" with (
-    $footer-background-color: $color-grey-1,
+    $footer-background-color: $color-primary-select,
     $footer-padding: 32px,
 );
 @use "bulma/sass/layout/container";
@@ -68,9 +69,13 @@ html {
 
 body {
     font-family: 'Lato', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
-    font-size: 19px;
+    font-size: 16px;
 }
 
 .img-working-on, .img-books, .img-denis-kotnik {
     border-radius: 6px;
+}
+
+.custom-color {
+    background-color: $color-primary-select;
 }
