@@ -51,7 +51,12 @@
 @use "bulma/sass/helpers/typography";
 
 // Layout
-@use "bulma/sass/layout/section";
+@use "bulma/sass/layout/section" with (
+    $section-padding-desktop: 30px 50px,
+    $section-padding-medium: 30px 50px,
+    $section-padding-large: 30px 50px,
+    $section-padding: 30px 50px
+);
 @use "bulma/sass/layout/footer" with (
     $footer-background-color: $color-primary-select,
     $footer-padding: 32px,
