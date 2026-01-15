@@ -84,3 +84,18 @@ body {
 .custom-color {
     background-color: $color-primary-select;
 }
+
+.is-golden-main {
+    flex: 0 0 61.8%;
+}
+
+.is-golden-side {
+    flex: 0 0 38.2%;
+}
+
+@media (max-width: 768px) {
+    .is-golden-main,
+    .is-golden-side {
+        flex: 0 0 100%;
+    }
+}

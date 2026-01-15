@@ -12,33 +12,34 @@
         </div>
     </section>
 
-    <section class="section custom-color">
-        <div class="container">
-            <h5 class="title is-5 has-text-primary" v-text="t('welcomeTitle')"></h5>
-            <p v-html="t('welcomeText')"></p>
-            <div class="has-text-centered pt-6">
-                <RouterLink class="button is-primary is-outlined" :to="{ name: 'psychodynamic_psychotherapy' }">
-                    <p v-html="t('more_about_psychodynamic_psychotherapy')"></p>
-                </RouterLink>
-            </div>
-        </div>
-    </section>
-
     <section class="section">
         <div class="container">
-            <p class="is-italic has-text-warning is-size-5 has-text-centered" v-html="t('quote')"></p>
+            <div class="columns is-vcentered">
+                <div class="column is-golden-main">
+                    <h5 class="title is-4 has-text-primary" v-text="t('welcomeTitle')"></h5>
+                    <p v-html="t('welcomeText')"></p>
+                    <div class="has-text-centered pt-6">
+                        <RouterLink class="button is-primary is-outlined" :to="{ name: 'psychodynamic_psychotherapy' }">
+                            <p v-html="t('more_about_psychodynamic_psychotherapy')"></p>
+                        </RouterLink>
+                    </div>
+                </div>
+                <div class="column is-holden-side">
+                    <p class="is-italic has-text-warning is-size-5 has-text-centered" v-html="t('quote')"></p>
+                </div>
+            </div>
         </div>
     </section>
 
     <section class="section custom-color">
         <div class="container">
             <div class="columns is-vcentered">
-                <div class="column is-5 has-text-centered">
+                <div class="column is-golden-side has-text-centered">
                     <figure class="image">
                         <img class="img-working-on" src="@/assets/images/home_hero_bottom_left.webp" alt="Working_on_psychotherapy_image">
                     </figure>
                 </div>
-                <div class="column is-7 content">
+                <div class="column is-golden-main content">
                     <h5 class="title is-5 has-text-primary" v-text="t('help_with_title')"></h5>
                     <ul v-html="t('help_with')"></ul>
                 </div>

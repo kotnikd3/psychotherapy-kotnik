@@ -2,12 +2,12 @@
     <section class="section mt-4">
         <div class="container">
             <div class="columns is-vcentered">
-                <div class="column">
+                <div class="column is-golden-main">
                     <h5 class="title is-5 has-text-primary" v-text="t('about_me_title')"></h5>
                     <p v-html="t('about_me')"></p>
                 </div>
-                <div class="column has-text-centered">
-                    <img class="img-denis-kotnik" src="@/assets/images/denis_kotnik.webp" alt="Denis_Kotnik" style="max-width: 80%;">
+                <div class="column is-golden-side has-text-centered">
+                    <img class="img-denis-kotnik" src="@/assets/images/denis_kotnik.webp" alt="Denis_Kotnik">
                 </div>
             </div>
         </div>
@@ -38,14 +38,14 @@
                         </a>
                     </figure>
                 </div>
-                <div class="column is-1-desktop is-one-third-mobile">
+                <div class="column is-1-desktop is-one-quarter-mobile">
                     <figure>
                         <a href="https://www.skzp.si/" target="_blank" rel="noopener noreferrer">
                             <img src="@/assets/images/skzp_logo.webp" alt="SKZP">
                         </a>
                     </figure>
                 </div>
-                <div class="column is-2-desktop is-two-thirds-mobile">
+                <div class="column is-2-desktop is-one-third-mobile">
                     <figure>
                         <a href="https://www.europsyche.org/" target="_blank" rel="noopener noreferrer">
                             <img src="@/assets/images/eap_logo.webp" alt="EAP">
