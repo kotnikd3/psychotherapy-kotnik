@@ -39,6 +39,7 @@
 @use "bulma/sass/components/navbar" with (
     $navbar-item-img-max-height: 50px,
 );
+@use "bulma/sass/components/card";
 
 // Form
 @use "bulma/sass/form/input-textarea";

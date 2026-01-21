@@ -15,7 +15,15 @@
 
     <section class="section">
         <div class="container">
-            <h5 class="title is-5 has-text-warning" v-text="t('links')"></h5>
+            <div class="is-italic has-text-warning is-size-5 has-text-centered">
+                <p v-html="t('about_song')"></p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <h5 class="title is-5 has-text-primary" v-text="t('links')"></h5>
             <div class="columns is-multiline is-centered has-text-centered is-mobile is-vcentered">
                 <div class="column is-2-desktop is-one-third-mobile">
                     <figure>

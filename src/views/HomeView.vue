@@ -24,8 +24,11 @@
                         </RouterLink>
                     </div>
                 </div>
-                <div class="column is-holden-side">
+                <div class="column is-golden-side">
                     <p class="is-italic has-text-warning is-size-5 has-text-centered" v-html="t('quote')"></p>
+                    <div class="has-text-centered pt-6">
+                        <RouterLink class="button is-warning is-outlined" :to="{ name: 'denis_kotnik' }">{{ t('more_about_me') }}</RouterLink>
+                    </div>
                 </div>
             </div>
         </div>
@@ -48,25 +51,63 @@
     </section>
     <section class="section">
         <div class="container">
-            <h5 class="title is-5 has-text-warning pb-5" v-text="t('setting_title')"></h5>
-
-            <div class="columns has-text-centered is-mobile is-multiline">
-                <div class="column is-half-mobile">
-                    <p class="title has-text-primary"><font-awesome-icon icon="fa-solid fa-euro-sign" /></p>
-                    <p v-html="t('setting_fee')"></p>
+            <div class="columns is-centered has-text-centered">
+                <div class="column is-one-third">
+                    <div class="card">
+                        <header class="card-header">
+                            <p class="card-header-title is-centered" v-text="t('setting_intake')"></p>
+                        </header>
+                        <div class="card-content">
+                            <p class="price">
+                                <span class="currency">
+                                    <font-awesome-icon icon="fa-solid fa-euro-sign" />
+                                </span>
+                                <span class="amount">40</span>
+                            </p>
+                        </div>
+                    </div>
                 </div>
-                <div class="column is-half-mobile">
+                <div class="column is-one-third">
+                    <div class="card">
+                        <header class="card-header">
+                            <p class="card-header-title is-centered" v-text="t('setting_once_per_week')"></p>
+                        </header>
+                        <div class="card-content">
+                            <p class="price">
+                                <span class="currency">
+                                    <font-awesome-icon icon="fa-solid fa-euro-sign" />
+                                </span>
+                                <span class="amount" v-text="t('setting_price_once_per_week')"></span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="column is-one-third">
+                    <div class="card">
+                        <header class="card-header">
+                            <p class="card-header-title is-centered" v-text="t('setting_twice_per_week')"></p>
+                        </header>
+                        <div class="card-content">
+                            <p class="price">
+                                <span class="currency">
+                                    <font-awesome-icon icon="fa-solid fa-euro-sign" />
+                                </span>
+                                <span class="amount" v-text="t('setting_price_twice_per_week')"></span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="columns has-text-centered is-mobile is-centered">
+                <div class="column is-half-mobile is-narrow-tablet">
                     <p class="title has-text-primary"><font-awesome-icon icon="fa-regular fa-clock" /></p>
                     <p v-html="t('setting_time')"></p>
                 </div>
-                <div class="column is-half-mobile">
+                <div class="column is-half-mobile is-narrow-tablet">
                     <p class="title has-text-primary"><font-awesome-icon icon="fa-solid fa-language" /></p>
                     <p v-html="t('setting_language')"></p>
                 </div>
-            </div>
-            
-            <div class="has-text-centered pt-6">
-                <RouterLink class="button is-primary is-outlined" :to="{ name: 'denis_kotnik' }">{{ t('more_about_me') }}</RouterLink>
             </div>
         </div>
     </section>
@@ -100,4 +141,21 @@ export default {
         object-fit: cover;
         object-position: 100% 80%;
     }
+
+    .price {
+        display: inline-flex;
+        align-items: flex-start;
+        font-weight: 700;
+    }
+
+    .price .currency {
+        font-size: 0.90em;
+        line-height: 1;
+    }
+
+    .price .amount {
+        font-size: 2.5rem;
+        line-height: 1;
+    }
+
 </style>
