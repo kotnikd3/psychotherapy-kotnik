@@ -1,8 +1,15 @@
 <template>
     <section class="section custom-color mt-4">
         <div class="container">
-            <h5 class="title is-5 has-text-primary" v-text="t('what_is_psychodynamic_therapy_title')"></h5>
-            <p v-html="t('what_is_psychodynamic_therapy')"></p>
+            <div class="columns is-vcentered">
+                <div class="column is-golden-main content">
+                    <h5 class="title is-5 has-text-primary" v-text="t('what_is_psychodynamic_therapy_title')"></h5>
+                    <p v-html="t('what_is_psychodynamic_therapy')"></p>
+                </div>
+                <div class="column is-golden-side has-text-centered">
+                    <img class="img-iceberg" src="@/assets/images/iceberg.svg" alt="Iceberg" style="width: 60%;">
+                </div>
+            </div>
         </div>
     </section>
 
