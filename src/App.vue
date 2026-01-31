@@ -49,6 +49,12 @@
         </div>
     </section>
 
+    <div class="container">
+        <div class="notification is-info has-text-centered is-size-4 p-2 mb-4">
+            <p v-text="t('notification')"></p>
+        </div>
+    </div>
+
     <footer class="footer">
         <div class="container">
             <div class="columns is-mobile is-multiline is-centered">
