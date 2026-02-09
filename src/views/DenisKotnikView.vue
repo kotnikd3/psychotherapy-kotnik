@@ -2,12 +2,12 @@
     <section class="section mt-4">
         <div class="container">
             <div class="columns is-vcentered">
+                <div class="column is-golden-side has-text-centered">
+                    <img class="img-denis-kotnik" src="@/assets/images/denis_3.webp" alt="Denis_Kotnik">
+                </div>
                 <div class="column is-golden-main">
                     <h5 class="title is-5 has-text-primary" v-text="t('about_me_title')"></h5>
                     <p v-html="t('about_me')"></p>
-                </div>
-                <div class="column is-golden-side has-text-centered">
-                    <img class="img-denis-kotnik" src="@/assets/images/denis_kotnik.webp" alt="Denis_Kotnik">
                 </div>
             </div>
         </div>
