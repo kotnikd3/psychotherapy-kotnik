@@ -2,12 +2,24 @@
     <section class="section mt-4">
         <div class="container">
             <div class="columns is-vcentered">
+                <div class="column is-golden-main">
+                    <div class="block">
+                        <h5 class="title is-5 has-text-primary" v-text="t('about_me_introduction_title')"></h5>
+                        <p v-html="t('about_me_introduction')"></p>
+                    </div>
+
+                    <div class="block">
+                        <h5 class="title is-5 has-text-warning" v-text="t('about_me_professional_title')"></h5>
+                        <p v-html="t('about_me_professional')"></p>
+                    </div>
+
+                    <div class="block">
+                        <h5 class="title is-5 has-text-primary" v-text="t('about_me_personal_title')"></h5>
+                        <p v-html="t('about_me_personal')"></p>
+                    </div>
+                </div>
                 <div class="column is-golden-side has-text-centered">
                     <img class="img-denis-kotnik" src="@/assets/images/denis_3.webp" alt="Denis_Kotnik">
-                </div>
-                <div class="column is-golden-main">
-                    <h5 class="title is-5 has-text-primary" v-text="t('about_me_title')"></h5>
-                    <p v-html="t('about_me')"></p>
                 </div>
             </div>
         </div>
@@ -39,10 +51,10 @@
                         </a>
                     </figure>
                 </div>
-                <div class="column is-2-desktop is-one-third-mobile">
+                <div class="column is-3-desktop is-one-third-mobile">
                     <figure>
                         <a href="https://ecpp.ngo/" target="_blank" rel="noopener noreferrer">
-                            <img src="@/assets/images/ecpp_logo.webp" alt="ECPP">
+                            <img src="@/assets/images/ecppp_logo.webp" alt="ECPPP">
                         </a>
                     </figure>
                 </div>
