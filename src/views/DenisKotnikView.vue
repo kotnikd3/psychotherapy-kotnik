@@ -2,6 +2,9 @@
     <section class="section mt-4">
         <div class="container">
             <div class="columns is-vcentered">
+                <div class="column is-golden-side has-text-centered">
+                    <img class="img-denis-kotnik" src="@/assets/images/denis_3.webp" alt="Denis_Kotnik_3">
+                </div>
                 <div class="column is-golden-main">
                     <div class="block">
                         <h5 class="title is-5 has-text-primary" v-text="t('about_me_introduction_title')"></h5>
@@ -17,9 +20,6 @@
                         <h5 class="title is-5 has-text-primary" v-text="t('about_me_personal_title')"></h5>
                         <p v-html="t('about_me_personal')"></p>
                     </div>
-                </div>
-                <div class="column is-golden-side has-text-centered">
-                    <img class="img-denis-kotnik" src="@/assets/images/denis_3.webp" alt="Denis_Kotnik">
                 </div>
             </div>
         </div>

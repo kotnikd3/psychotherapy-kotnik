@@ -44,3 +44,8 @@ npm run lint
 ```
 
 https://favicon.io/favicon-generator/
+
+
+# TODO
+- Na prvo stran daj sliko, citat pa bolj spodaj
+- KVK nummer: XXX

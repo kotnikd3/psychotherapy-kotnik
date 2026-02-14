@@ -24,9 +24,9 @@
                         </RouterLink>
                     </div>
                 </div>
-                <div class="column is-golden-side">
-                    <p class="is-italic has-text-warning is-size-5 has-text-centered" v-html="t('quote')"></p>
-                    <div class="has-text-centered pt-6">
+                <div class="column is-golden-side has-text-centered">
+                    <img class="img-denis-kotnik" src="@/assets/images/denis_1.webp" alt="Denis_Kotnik_1" style="width: 70%;">
+                    <div class="pt-2">
                         <RouterLink class="button is-warning is-outlined" :to="{ name: 'denis_kotnik' }">{{ t('more_about_me') }}</RouterLink>
                     </div>
                 </div>
@@ -47,6 +47,11 @@
                     <ul v-html="t('help_with')"></ul>
                 </div>
             </div>
+        </div>
+    </section>
+    <section class="section">
+        <div class="container">
+            <p class="is-italic has-text-warning is-size-5 has-text-centered" v-html="t('quote')"></p>
         </div>
     </section>
     <section class="section">
